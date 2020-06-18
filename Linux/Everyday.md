@@ -2,8 +2,10 @@
 
 The first parameter to grep is the search term, and the second is the file to search in.
 
-#Searching for a keyword in file.
+_Searching for a keyword in file_
+
 grep Bob afile
+
 grep Bob* afile
 
 #Using the case insensitive parameter.
