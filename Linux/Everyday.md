@@ -17,3 +17,18 @@ _#Using the case insensitive parameter_
 _#Searching for a keyword in all man pages_
 
     apropos "manual"
+---
+#### Dealing with processes
+
+_#Seeing all running processes_
+
+  ps aux
+  ps auxf (More info)  
+
+_#Seeing the top resource consuming processes_
+
+  top
+
+_#Killing a process_
+
+    kill pid
