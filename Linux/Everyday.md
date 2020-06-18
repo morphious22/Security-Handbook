@@ -2,7 +2,7 @@
 
 The first parameter to grep is the search term, and the second is the file to search in.
 
-* Searching for a keyword in file
+_#Searching for a keyword in file_
 
     grep Bob afile
 
@@ -12,6 +12,7 @@ The first parameter to grep is the search term, and the second is the file to se
 
     grep -i bob afile
 
+---
 #### apropos: The 'apropos' tool is used to search man pages for key words, usually to find the 'appropriate' tool to use in a particular situation.
 
 * Searching for a keyword in all man pages
