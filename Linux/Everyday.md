@@ -5,7 +5,6 @@ The first parameter to grep is the search term, and the second is the file to se
 _#Searching for a keyword in file_
 
     grep Bob afile
-
     grep Bob* afile
 
 _#Using the case insensitive parameter_
