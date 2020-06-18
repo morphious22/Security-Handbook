@@ -6,10 +6,6 @@ The third parameter is the search term.
 
 _#Finding a file with the help of name_
 
-  find . -name myfile
-
-  find . -name "*file"
-
-  find . -name "*file*"
-
-  ---
+    find . -name myfile
+    find . -name "*file"
+    find . -name "*file*"
