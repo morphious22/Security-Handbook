@@ -8,13 +8,13 @@ _#Searching for a keyword in file_
 
     grep Bob* afile
 
-* Using the case insensitive parameter.
+_#Using the case insensitive parameter_
 
     grep -i bob afile
 
 ---
 #### apropos: The 'apropos' tool is used to search man pages for key words, usually to find the 'appropriate' tool to use in a particular situation.
 
-* Searching for a keyword in all man pages
+_#Searching for a keyword in all man pages_
 
     apropos "manual"
