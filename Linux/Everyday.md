@@ -22,13 +22,14 @@ _#Searching for a keyword in all man pages_
 
 _#Seeing all running processes_
 
-  ps aux
-  ps auxf (More info)  
+    ps aux
+    ps auxf (More info)  
 
 _#Seeing the top resource consuming processes_
 
-  top
+    top
 
 _#Killing a process_
 
     kill pid
+---
