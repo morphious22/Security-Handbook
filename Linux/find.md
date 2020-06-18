@@ -11,3 +11,4 @@ _#Finding a file with the help of name_
   find . -name "*file"
 
   find . -name "*file*"
+  ---
