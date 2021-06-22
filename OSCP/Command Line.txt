@@ -1,0 +1,25 @@
+• /bin - basic programs (ls, cd, cat, etc.)
+• /sbin - system programs (fdisk, mkfs, sysctl, etc)
+• /etc - configuration files
+• /tmp - temporary files (typically deleted on boot)
+• /usr/bin - applications (apt, ncat, nmap, etc.)
+• /usr/share - application support and data files
+
+
+#Searching Man pages
+man -k passwd - keyword search. Search all man pages for "passwd"
+apropos partition - Search all man pages with partition in the description
+
+
+#Finding files
+which sbd - Searches for files in $PATH 
+sudo updatedb AND locate sbd.exe - Updates locate DB and searches
+sudo find / -name sbd* - Best searching
+
+
+#Starting services
+sudo systemctl start ssh
+sudo ss -antlp | grep sshd
+systemctl list-unit-files
+
+
